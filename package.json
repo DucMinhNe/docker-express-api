@@ -1,0 +1,19 @@
+{
+  "name": "docker-express-api",
+  "version": "1.0.0",
+  "description": "Production-grade Node.js 22 + Express 5 REST API starter, published as minhle202/express-api.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "Lê Đức Minh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
